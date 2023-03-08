@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace RegexProgram
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            RegexPatten regexPatten = new RegexPatten();
+            regexPatten.ValidateFirstName("Riya");
+            Console.ReadLine();
+
+        }
+    }
+}
