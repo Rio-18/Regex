@@ -1,11 +1,11 @@
 ﻿namespace RegexProgram
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             RegexPatten regexPatten = new RegexPatten();
-            regexPatten.ValidateFirstName("Riya");
+            regexPatten.ValidateName("Riya", "More");
             Console.ReadLine();
 
         }
